@@ -18,6 +18,4 @@
 ---
 
 ## 🛠 Tech Used
-* Frontend: HTML, CSS, JavaScript
-* Backend: php
-* Database: mySQL
+* HTML, CSS, JavaScript
