@@ -4,8 +4,9 @@
 ---
 
 ## 📸 Demo -> https://typingtestgames.netlify.app/
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f34c0061-f0bf-436a-b1a1-1c7448543d2c" width="600">
+  <img src="https://github.com/user-attachments/assets/8598d027-dd73-4796-ac10-28b018384ec5" width="600">
 </p>
 
 ---
