@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <video autoplay muted loop id="myVideo"> <!--Code about decoration that inserts background video-->
+        <source src="heart.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    
+
+    <div id="game-container">
+        <div id="game-board"></div>
+        <div id="input-area">
+            <input type="text" id="word-input" placeholder="Type here..." style="color:#FFF" autofocus />
+        </div>
+        <div id="scoreboard">
+            <span id="score">Score: 0</span>
+            <span id="lives">Lives: 5</span>
+            <button id="pause-button">Pause</button>
+        </div>
+    </div>
+    <script src="game.js">
+
+        //Code about decoration that inserts background video
+        var video = document.getElementById("myVideo");
+
+        function myFunction() { //Code about decoration that inserts background video
+         if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+         } else {
+                video.pause();
+                btn.innerHTML = "Play";
+         }
+        }
+
+    </script>
+</body>
+</html>

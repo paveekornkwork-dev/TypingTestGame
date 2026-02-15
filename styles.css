@@ -1,0 +1,66 @@
+
+
+#myVideo { /*code for video background*/
+  position: fixed;
+  display: flex;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff700;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    width: 80%;
+    max-width: 800px;
+    height: 600px;
+    border: 10px solid #ffd98a;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#game-board {
+ 	
+    background-image: url(screen1.jpg);
+    flex-grow: 1;
+    position: relative;
+    overflow: hidden;
+    /*background-color: #51518E; /* Optional: background color for better visibility */*/
+     
+}
+
+#input-area {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffd98a;
+}
+
+#word-input {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #d75ca2;
+    color: #2c056b;
+    border: none;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #d75ca2;
+}
+
+.word {
+    position: absolute;
+    font-size: 20px;
+    left: 0; /* Start words from the left */
+}
